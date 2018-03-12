@@ -1,0 +1,45 @@
+
+
+        /* .first-loading {
+            display: none;
+        } */
+
+.first-loading.active {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #edd;
+}
+.first-loading.active .laoding{
+    border: 1px solid red;
+    position: relative;
+}
+.first-loading.active .loading::before,
+.first-loading.active .loading::after{
+    content:'';
+    height: 200px;
+    width: 200px;
+    background-color:#754575;
+    border-radius: 50%;
+    position: absolute;
+    top :0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: circle 2s linear infinite;
+}
+.first-loading.active .loading::after{
+    width:0;
+    height:0;
+    content:'';
+    animation-delay:1s
+}
+@keyframes circle{
+    0%{width:0; height: 0; opacity:1;}
+    100%{width: 100px; height: 100px;opacity:0;}
+}
+/* .first-loading{  
+    display: none;
+} */

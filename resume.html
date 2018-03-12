@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>前端求职简历</title>
+    <link rel="stylesheet" href="./loading.css" charset="UTF-8">
+    <link rel="stylesheet" href="./style.css" charset="UTF-8">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css">
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first-loading active" id="firstLoading">
+        <div class="loading"></div>
+    </div>
+    <div class="topNavBar" id="topNavBar">
+        <div class="topNavBarInner clearfix">
+            <a href="#" class="logo ">
+                <span class="XJ">XJ</span>
+                <span class="card">card</span>
+            </a>
+            <nav class="menu">
+                <ul class="clearfix">
+                    <li class="menuTrigger">
+                        <a href="#siteAbout">ABOUT</a>
+                    </li>
+                    <li class="menuTrigger">
+                        <a href="#siteSkills">SKILLS</a>
+                    </li>
+                    <li class="menuTrigger">
+                        <a href="#siteWorks">PORTFOLIO</a>
+                    </li>
+                    <li class="menuTrigger">
+                        <a href="#site-msgBoard">MESSAGEBOARD</a>
+                        <ul class="subMenu">
+                            <li>Education</li>
+                            <li>Clients</li>
+                            <li>Reference</li>
+                        </ul>
+                    </li>
+                    <li class="menuTrigger">
+                        <a href="#">PRICING</a>
+                    </li>
+                    <li class="menuTrigger">
+                        <a href="#">BLOG</a>
+                        <ul class="subMenu">
+                            <li>image</li>
+                            <li>slide</li>
+                            <li>video</li>
+                        </ul>
+                    </li>
+                    <li class="menuTrigger">
+                        <a href="#">CALENDAR</a>
+                    </li>
+                    <li class="menuTrigger">
+                        <a href="#">CONTACT</a>
+                    </li>
+                    <li class="menuTrigger">
+                        <a href="#">OTHER</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
+
+    <div marked class="Card clearfix" id="siteAbout">
+        <div class="CardInner clearfix">
+            <div class="photo">
+                <img src="picture/avatar.jpg" alt="photo">
+            </div>
+            <div class="message">
+                <span class="hello">HELLO
+                    <span class="triangle"></span>
+                </span>
+                <h1>韩先杰</h1>
+                <div class="FE">前端开发工程师</div>
+                <hr>
+                <ul class="dl">
+                    <li>年龄</li>
+                    <li>城市</li>
+                    <li>性别</li>
+                    <li>手机</li>
+                    <li>邮箱</li>
+                    <li>上岗时间</li>
+                </ul>
+                <ul class="dd">
+                    <li>22</li>
+                    <li>深圳</li>
+                    <li>男</li>
+                    <li>18679226369</li>
+                    <li>xjhan1995@gmail.com</li>
+                    <li>3月份</li>
+                </ul>
+            </div>
+        </div>
+        <footer class="media">
+            <a href="https://www.jianshu.com/u/f0166055e2b1">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-jianshu"></use>
+                </svg>
+            </a>
+            <a href="mailto:xjhan1995@gmail.com">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-youjian"></use>
+                </svg>
+            </a>
+            <a href="./wechat.html" id="wechatButton">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+                </svg>
+            </a>
+            <a href="javascript:alert('这是一个假的按钮')">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weibo"></use>
+                </svg>
+            </a>
+        </footer>
+
+    </div>
+    <div class="self">
+        <a href="resume.pdf" download>
+            <div class="download">下载简历</div>
+        </a>
+        <p>熟练使用 CSS、SCSS 等制作移动端页面</p>
+        <p>熟练使用原生 JS 解决问题，了解 ES6 及更高版本JS特性</p>
+        <p>会使用jQuery、Vue.js等库（框架）开发</p>
+
+    </div>
+    <section marked class="skills" id="siteSkills">
+        <h2>专业技能</h2>
+        <ol class="clearfix">
+            <li>
+                HTML &amp; CSS
+                <div class="progressBar">
+                    <div class="progress" style="width:80%"></div>
+                </div>
+            </li>
+            <li>
+                JavaScript
+                <div class="progressBar">
+                    <div class="progress" style="width:80%"></div>
+                </div>
+            </li>
+            <li>
+                Node.js
+                <div class="progressBar">
+                    <div class="progress" style="width:80%"></div>
+                </div>
+            </li>
+            <li>
+                vue
+                <div class="progressBar">
+                    <div class="progress" style="width:90%"></div>
+                </div>
+            </li>
+            <li>
+                jQuery
+                <div class="progressBar">
+                    <div class="progress" style="width:80%"></div>
+                </div>
+            </li>
+            <li>
+                HTTP
+                <div class="progressBar">
+                    <div class="progress" style="width:50%"></div>
+                </div>
+            </li>
+
+        </ol>
+    </section>
+    <section marked class="portfolio clearfix" id="siteWorks">
+        <h2>作品集</h2>
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a href="https://xianjiezh.github.io/learnCanvas/index.html">
+                        <img src="picture/canvas.jpg" width="800px" height="400px">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://xianjiezh.github.io/navstart/index.html">
+                        <img src="picture/nav.jpg" width="800px" height="400px">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://xianjiezh.github.io/carousel-2/Apple/">
+                        <img src="picture/apple-like-slide.jpg" width="800px" height="400px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </section>
+    <section marked class="msgBoard" id="site-msgBoard">
+        <h2>留言板</h2>
+        <ul class="visitorMSGBoard">
+
+        </ul>
+        <form action="post" id="msgForm">
+            姓名：
+            <input type="text" name="msg" id="visitorName"> 留言：
+            <input type="text" name="msg" id="visitorMsg">
+            <input type="submit" value="留言">
+
+        </form>
+    </section>
+    <script src="//at.alicdn.com/t/font_455241_fwas1r24rx0w9udi.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+    <script src="//cdn1.lncld.net/static/js/3.5.0/av-min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./base/Model.js"></script>
+    <script src="./base/View.js"></script>
+    <script src="./base/Controller.js"></script>
+    <!--模块化js-->
+    <script src="./js/auto-slide-up.js"></script>
+    <script src="./js/init_swiper.js"></script>
+    <script src="./js/sticky-topbar.js"></script>
+    <script src="./js/smoothly-nav.js"></script>
+    <script src="./js/topbar-dropdown.js"></script>
+    <script src="./js/message.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function(){
+            firstLoading.remove()
+        })
+        
+        
+    </script>
+</body>
+
+</html>
